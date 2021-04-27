@@ -21,7 +21,12 @@ interface IAutoSizerProps {
 
 export const AutoSize: React.FC<IAutoSizerProps> = ({ style, children }) => {
   const container = useRef<HTMLDivElement>(null)
-  const [dimension, setDimension] = useState<IBoxDimension>()
+  const [dimension, setDimension] = useState<IBoxDimension>(() => {
+    return {
+      height: container?.current?.clientHeight || 0,
+      width: container?.current?.clientWidth || 0,
+    }
+  })
 
   const handleResize = () => {
     if (container.current) {
