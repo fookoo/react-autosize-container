@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 
 const debounce = function debounce<T extends Function>(cb: T, wait = 20) {
-  let h: NodeJS.Timeout
+  let h: number
 
   return (...args: unknown[]) => {
     clearTimeout(h)

@@ -1,11 +1,11 @@
 {
   "name": "react-autosize-container",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React component that gives you feedback about container size (width & height)",
   "main": "src/index.tsx",
-  "author": "Piotr Pliszczyński",
+  "author": "Piotr Pliszczyński <fookoo@gmail.com>",
   "license": "MIT",
-  "peerDependencies": {
+   "peerDependencies": {
     "react": "^17.0.2"
   }
 }
