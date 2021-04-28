@@ -1,7 +1,15 @@
 {
   "name": "react-autosize-container",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "React component that gives you feedback about container size (width & height)",
+  "keywords": [
+    "ui",
+    "react",
+    "component",
+    "autosize",
+    "autosizer",
+    "container"
+  ],
   "author": "Piotr Pliszczyński <fookoo@gmail.com>",
   "license": "MIT",
   "main": "dist/index.js",
