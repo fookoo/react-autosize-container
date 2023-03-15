@@ -11,14 +11,13 @@ yarn add react-autosize-container --save
 ## Usage
 
 ```jsx
-import React from 'react'
 import { AutoSize } from 'react-autosize-container'
 
-export const TestExample: React.FC<{}> = () => (
+export const TestExample = () => (
   <AutoSize>
     {({ width, height }) => (
       <span>
-        My container is {widht}px x {height}px
+        My container is {width}px x {height}px
       </span>
    )}  
   </AutoSize>
